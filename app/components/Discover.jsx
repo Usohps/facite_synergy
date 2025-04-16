@@ -6,7 +6,7 @@ const DiscoverSSMS = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center">
         <Image
-          src="/ipadpro.svg"
+          src="/image4.jpg"
           alt="SSMS Dashboard"
           width={600}
           height={400}

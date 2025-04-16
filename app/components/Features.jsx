@@ -38,7 +38,7 @@ const Features = () => {
         {/* Customized Dashboard */}
         <div className="bg-[#F97314] opacity-80 p-6 rounded-lg shadow-md text-white flex flex-col items-center w-[400px] h-[300px]">
           <Image
-            src="/macbook-fill.svg"
+            src="/image6.jpg"
             alt="Dashboard"
             width={100}
             height={100}

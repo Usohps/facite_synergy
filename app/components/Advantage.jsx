@@ -2,7 +2,7 @@
 export default function SmssAdvantage() {
   return (
     <>
-          <div className=" flex md:flex-row p-4 space-y-4 md:space-y-0 flex-col   md:justify-between w-full">
+          <div className=" flex md:flex-row items-center  container m-auto p-4 space-y-4 md:space-y-0 flex-col   md:justify-between w-full">
             {/* Contact Form */}
             <form className="md:w-1/2 w-full bg-gray-50  p-6 rounded-xl shadow-md space-y-4">
               <div>
@@ -34,7 +34,7 @@ export default function SmssAdvantage() {
               </div>
               <button
                 type="submit"
-                className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition"
+                className="border border-[#F97314] text-[#F97314] px-6 py-3 rounded-md hover:bg-orange-500 hover:text-white transition"
               >
                 Send Message
               </button>

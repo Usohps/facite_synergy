@@ -5,19 +5,19 @@ const features = [
     title: "Property Management",
     description:
       " We handle all aspects of property management including tenant relations, maintenance, and asset growth—so you can enjoy the benefits without the stress.",
-    image: "/images/student-management.jpg",
+    image: "/image6.jpg",
   },
   {
     title: "Roofing & Tiling",
     description:
       "Our skilled team offers roof installation, repair, and tile work that blends durability with design—ensuring safety and curb appeal.",
-    image: "/images/scheduling.jpg",
+    image: "/image1.jpg",
   },
   {
     title: "Property Survey",
     description:
       "Accurate property assessments and land surveys using modern tools and techniques to support real estate decisions and legal clarity.",
-    image: "/images/learning.jpg",
+    image: "/image3.jpg",
   },
 ];
 

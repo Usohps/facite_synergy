@@ -9,9 +9,9 @@ const FeatureCard = ({ title, description, image }) => {
         <Image
           src={image}
           alt={title}
-          width={300}
-          height={200}
-          className="rounded-lg"
+          width={100}
+          height={100}
+          className="rounded-lg max-w-full"
         />
       </div>
     </div>

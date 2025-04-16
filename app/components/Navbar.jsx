@@ -39,8 +39,8 @@ export default function Navbar() {
         key={link.name}
         href={link.href}
         onClick={() => isMobile && closeSidebar()}
-        className={`text-gray-700 hover:text-blue-600 transition ${
-          activeId === link.href.slice(1) ? 'text-blue-600 font-semibold' : ''
+        className={`text-gray-700 hover:text-orange-500 transition ${
+          activeId === link.href.slice(1) ? 'text-orange-500 font-semibold' : ''
         }`}
       >
         {link.name}
