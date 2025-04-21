@@ -46,7 +46,7 @@ const Hero = () => {
         </p>
 
         <div className="mt-6 space-x-4">
-          <button className="bg-[#F97314] hover:bg-orange-500 text-white px-6 py-3 rounded-md shadow-md transition">
+          <button className="bg-[#F97314] hover:bg-orange-500 text-white px-6 py-3 rounded-md shadow-md mb-4 md:mb-0 transition">
             <a href="#about">For more Info</a>
           </button>
           <button  className="border border-[#F97314] text-[#F97314] px-6 py-3 rounded-md hover:bg-orange-500 hover:text-white transition">
