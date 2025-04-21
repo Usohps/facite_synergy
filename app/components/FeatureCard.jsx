@@ -6,13 +6,16 @@ const FeatureCard = ({ title, description, image }) => {
       <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
       <p className="text-gray-600 mt-2">{description}</p>
       <div className="mt-4">
-        <Image
+        {/* <Image
           src={image}
           alt={title}
-          width={100}
+          width={200}
           height={100}
-          className="rounded-lg max-w-full"
-        />
+          className="rounded-lg m-auto bg-cover"
+        /> */}
+        <div className=" rounded-xl w-full max-h-[200px]">
+          <img src={image} className="rounded-xl w-full h-[200px]" alt="" />
+        </div>
       </div>
     </div>
   );

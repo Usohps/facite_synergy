@@ -1,6 +1,5 @@
-// app/components/Footer.tsx
+"use client"
 import React from "react";
-
 export default function Footer() {
   return (
     <footer className="bg-orange-600 text-white py-8 flex-1 flex justify-center items-center">
@@ -38,8 +37,8 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#benefit" className="hover:underline">
-                    Benefit
+                  <a href="#services" className="hover:underline">
+                    Services
                   </a>
                 </li>
                 <li>
@@ -59,11 +58,11 @@ export default function Footer() {
             <div className="w-1/2 sm:w-auto mb-6 md:mb-0">
               <h3 className="font-semibold text-lg mb-3">Support</h3>
               <ul className="space-y-2 text-sm">
-                <li>
+                {/* <li>
                   <a href="#contact" className="hover:underline">
                     Contact us
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#faqs" className="hover:underline">
                     FAQs

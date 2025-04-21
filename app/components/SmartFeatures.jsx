@@ -34,7 +34,7 @@ const SmartFeatures = () => {
       </p>
 
       {/* Feature Cards */}
-      <div className="mt-10 grid gap-8 md:grid-cols-3 grid-cols-1">
+      <div className="mt-10 grid gap-8 lg:grid-cols-3 grid-cols-1">
         {features.map((feature, index) => (
           <FeatureCard
             key={index}
@@ -47,8 +47,8 @@ const SmartFeatures = () => {
 
       {/* Explore Button */}
       <div className="mt-10">
-        <button className="bg-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition">
-          Contact Us
+        <button  className="bg-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition">
+          <a href="#contact">Contact Us</a>
         </button>
       </div>
     </section>
