@@ -1,5 +1,5 @@
 "use client";
-export default function SmssAdvantage() {
+export default function Contact() {
   return (
     <>
           <div className=" flex md:flex-row items-center  container m-auto p-4 space-y-4 md:space-y-0 flex-col   md:justify-between w-full">
@@ -47,12 +47,17 @@ export default function SmssAdvantage() {
               <p>Have a question or ready to get started? We’d love to hear from you.</p>
             </div>
               <div>
-                <h3 className="font-bold text-lg">Address:</h3>
-                <p>123 Unity Street, Lagos, Nigeria</p>
+                <h3 className="font-bold text-lg">Enugu Address:</h3>
+                <p>71 More House By Denten Street, Ogui Road,Enugu State.</p>
               </div>
               <div>
-                <h3 className="font-bold text-lg">Phone:</h3>
-                <p>+234 800 123 4567</p>
+                <h3 className="font-bold text-lg">Head Office:</h3>
+                <p>No. 24 Ebitu Ukiwe St, Jabi, Beta Foundation Plaza Jabi, Suite 313B Second Floor.</p>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg">Tel:</h3>
+                <p>07036041395</p>
+                <p>09044143821</p>
               </div>
               <div>
                 <h3 className="font-bold text-lg">Email:</h3>

@@ -21,7 +21,7 @@ const features = [
   },
 ];
 
-const SmartFeatures = () => {
+const Services = () => {
   return (
     <section className="container mx-auto px-6 py-16 text-center">
       {/* Title */}
@@ -47,12 +47,12 @@ const SmartFeatures = () => {
 
       {/* Explore Button */}
       <div className="mt-10">
-        <button  className="bg-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition">
-          <a href="#contact">Contact Us</a>
+        <button  className="bg-orange-500 w-full md:w-1/2 text-white px-6 py-3 rounded-lg font-medium hover:bg-orange-600 transition">
+          <a href="#contact">Contact Us Today</a>
         </button>
       </div>
     </section>
   );
 };
 
-export default SmartFeatures;
+export default Services;
