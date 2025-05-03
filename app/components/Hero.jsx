@@ -8,7 +8,7 @@ const images = ["/image1.jpg", "/image2.jpg", "/image3.jpg"];
 
 const Hero = () => {
   return (
-    <section className="relative h-[500px] md:min-h-screen w-full overflow-hidden">
+    <section className="relative h-[500px] min-h-screen  overflow-hidden">
       {/* Background slider */}
       <div className="absolute inset-0 z-0">
         <Swiper
@@ -34,10 +34,10 @@ const Hero = () => {
 
       {/* Hero Text */}
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-center px-6 space-y-4">
-        <h1 className="text-3xl md:text-[64px] font-medium text-white md:leading-snug">
+        <h1 className="text-2xl md:text-[64px] font-medium text-white md:leading-snug">
         Welcome to Facite Synergy – <br/> Building Tomorrow, Today
         </h1>
-        <p className="text-white text-lg md:text-[24px] md:mx-12 font-light">
+        <p className="text-white md:text-lg text-md md:text-[24px] md:mx-12 font-light">
           At Facite Synergy, we bring your property dreams to life. Whether
           you're investing in land, buying a home, or buying a premium
           rooftiles, we provide quality, reliability, and unmatched expertise
