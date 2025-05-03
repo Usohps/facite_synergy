@@ -2,21 +2,21 @@ import FeatureCard from "./FeatureCard";
 
 const features = [
   {
-    title: "Property Management",
+    title: "Real Estate Sales (Land & Houses)",
     description:
-      " We handle all aspects of property management including tenant relations, maintenance, and asset growth—so you can enjoy the benefits without the stress.",
+      "We help you invest wisely in properties with high growth potential. From residential plots to finished homes, we offer verified land and houses in strategic locations.",
     image: "/image6.jpg",
   },
   {
-    title: "Roofing & Tiling",
+    title: "Roofing Solutions",
     description:
-      "Our skilled team offers roof installation, repair, and tile work that blends durability with design—ensuring safety and curb appeal.",
+      "We supply and install top-grade rooftiles that combine beauty and durability. Our roofing team ensures your home is protected and stylish with professional installation.",
     image: "/image1.jpg",
   },
   {
-    title: "Property Survey",
+    title: "Property Survey Services",
     description:
-      "Accurate property assessments and land surveys using modern tools and techniques to support real estate decisions and legal clarity.",
+      "Get accurate and reliable land/property survey reports for legal and planning purposes. We work with certified professionals to give you peace of mind on your investment.",
     image: "/image3.jpg",
   },
 ];

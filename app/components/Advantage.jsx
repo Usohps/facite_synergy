@@ -42,6 +42,10 @@ export default function SmssAdvantage() {
 
             {/* Company Info */}
             <div className="md:w-1/3 w-full flex flex-col justify-center space-y-4 text-gray-700">
+            <div>
+            <h1>Let’s Talk</h1>
+              <p>Have a question or ready to get started? We’d love to hear from you.</p>
+            </div>
               <div>
                 <h3 className="font-bold text-lg">Address:</h3>
                 <p>123 Unity Street, Lagos, Nigeria</p>
